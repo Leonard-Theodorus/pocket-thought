@@ -7,23 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C247F9A96B0C21EFBD27BB33 /* Pods_Pocket_Thought.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C49A1CB2B158A223D858B /* Pods_Pocket_Thought.framework */; };
+		D722230F2C4E3DC300E45A2D /* PersonalThoughtDataBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722230E2C4E3DC300E45A2D /* PersonalThoughtDataBaseModel.swift */; };
+		D72223112C4E3EF900E45A2D /* UserDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72223102C4E3EF900E45A2D /* UserDatabaseModel.swift */; };
+		D72223132C4E409900E45A2D /* PhilosopherDataBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72223122C4E409900E45A2D /* PhilosopherDataBaseModel.swift */; };
+		D72223152C4E40A000E45A2D /* IdeasDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72223142C4E40A000E45A2D /* IdeasDatabaseModel.swift */; };
+		D72223172C4E45D700E45A2D /* DataBaseThoughtInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72223162C4E45D700E45A2D /* DataBaseThoughtInputModel.swift */; };
+		D722231A2C4E4FC300E45A2D /* PersonalThoughtViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72223192C4E4FC300E45A2D /* PersonalThoughtViewModel.swift */; };
+		D722231C2C4FF58500E45A2D /* ThoughtsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722231B2C4FF58500E45A2D /* ThoughtsCell.swift */; };
+		D722231E2C4FFD9A00E45A2D /* PersonalThoughtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722231D2C4FFD9A00E45A2D /* PersonalThoughtModel.swift */; };
 		D7630DB92C36D4D600A16404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DB82C36D4D600A16404 /* AppDelegate.swift */; };
 		D7630DBB2C36D4D600A16404 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DBA2C36D4D600A16404 /* SceneDelegate.swift */; };
-		D7630DBD2C36D4D600A16404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DBC2C36D4D600A16404 /* ViewController.swift */; };
-		D7630DC02C36D4D600A16404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7630DBE2C36D4D600A16404 /* Main.storyboard */; };
+		D7630DBD2C36D4D600A16404 /* PhilosopherVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DBC2C36D4D600A16404 /* PhilosopherVc.swift */; };
 		D7630DC22C36D4D700A16404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7630DC12C36D4D700A16404 /* Assets.xcassets */; };
 		D7630DC52C36D4D700A16404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7630DC32C36D4D700A16404 /* LaunchScreen.storyboard */; };
+		D7630DD02C36DD8600A16404 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DCF2C36DD8600A16404 /* Coordinator.swift */; };
+		D7630DD22C36DD8C00A16404 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DD12C36DD8C00A16404 /* AppCoordinator.swift */; };
+		D7630DD72C36E62800A16404 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DD62C36E62800A16404 /* APIService.swift */; };
+		D7630DD92C36F27200A16404 /* PhilosopherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DD82C36F27200A16404 /* PhilosopherAPIService.swift */; };
+		D7630DDB2C3736C100A16404 /* PhilosopherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DDA2C3736C100A16404 /* PhilosopherDTO.swift */; };
+		D7630DDD2C37374B00A16404 /* Philosopher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DDC2C37374B00A16404 /* Philosopher.swift */; };
+		D7630DE02C3744AF00A16404 /* PhilosopherCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DDF2C3744AF00A16404 /* PhilosopherCoordinator.swift */; };
+		D7630DE32C38002100A16404 /* PhilosopherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DE22C38002100A16404 /* PhilosopherViewModel.swift */; };
+		D7630DE62C38E7C800A16404 /* PhilosopherResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DE52C38E7C800A16404 /* PhilosopherResult.swift */; };
+		D7630DE82C38EE6500A16404 /* ViewModelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DE72C38EE6500A16404 /* ViewModelOutput.swift */; };
+		D7630DEB2C3909A200A16404 /* PhilosopherViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DEA2C3909A100A16404 /* PhilosopherViewcell.swift */; };
+		D7630DED2C3B900700A16404 /* PhilosopherNameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DEC2C3B900700A16404 /* PhilosopherNameCard.swift */; };
+		D7630DEF2C3B96C700A16404 /* PhilosopherInputDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DEE2C3B96C700A16404 /* PhilosopherInputDelegate.swift */; };
+		D7630DF22C3BA28C00A16404 /* PhilosopherDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DF12C3BA28C00A16404 /* PhilosopherDetailVc.swift */; };
+		D7630DF42C3BA54C00A16404 /* PhilosopherDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DF32C3BA54C00A16404 /* PhilosopherDetailViewModel.swift */; };
+		D7630DF92C3C3ADF00A16404 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DF82C3C3ADF00A16404 /* FirestoreService.swift */; };
+		D7630DFD2C3C3D3400A16404 /* IdeasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DFC2C3C3D3400A16404 /* IdeasCell.swift */; };
+		D7630DFF2C3D8C8D00A16404 /* ThoughtsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630DFE2C3D8C8D00A16404 /* ThoughtsHeader.swift */; };
+		D7630E032C44CBA500A16404 /* PersonalThoughtsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7630E022C44CBA500A16404 /* PersonalThoughtsVc.swift */; };
+		D781123A2C46AF24000CDCEE /* UserAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78112392C46AF24000CDCEE /* UserAuthModel.swift */; };
+		D78112402C47D3BF000CDCEE /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781123F2C47D3BF000CDCEE /* AuthCoordinator.swift */; };
+		D78112422C47D951000CDCEE /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78112412C47D951000CDCEE /* AuthViewModel.swift */; };
+		D78112442C47D9C3000CDCEE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78112432C47D9C3000CDCEE /* AuthViewController.swift */; };
+		D78112482C4863E7000CDCEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D78112472C4863E7000CDCEE /* GoogleService-Info.plist */; };
+		D781124B2C4926E9000CDCEE /* UIButton + Remove Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D781124A2C4926E9000CDCEE /* UIButton + Remove Actions.swift */; };
+		D795136C2C513DDA00C00D14 /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D795136B2C513DDA00C00D14 /* Idea.swift */; };
+		D7A129682C51F4FA009ECD5F /* IdeasTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A129672C51F4FA009ECD5F /* IdeasTableViewHeader.swift */; };
+		D7E557C52C46861F008A4C61 /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E557C42C46861F008A4C61 /* FirebaseAuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22B2896AA75E6C34135A91BE /* Pods-Pocket Thought.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Thought.release.xcconfig"; path = "Target Support Files/Pods-Pocket Thought/Pods-Pocket Thought.release.xcconfig"; sourceTree = "<group>"; };
+		240C49A1CB2B158A223D858B /* Pods_Pocket_Thought.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Thought.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D722230E2C4E3DC300E45A2D /* PersonalThoughtDataBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalThoughtDataBaseModel.swift; sourceTree = "<group>"; };
+		D72223102C4E3EF900E45A2D /* UserDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDatabaseModel.swift; sourceTree = "<group>"; };
+		D72223122C4E409900E45A2D /* PhilosopherDataBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherDataBaseModel.swift; sourceTree = "<group>"; };
+		D72223142C4E40A000E45A2D /* IdeasDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasDatabaseModel.swift; sourceTree = "<group>"; };
+		D72223162C4E45D700E45A2D /* DataBaseThoughtInputModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseThoughtInputModel.swift; sourceTree = "<group>"; };
+		D72223192C4E4FC300E45A2D /* PersonalThoughtViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalThoughtViewModel.swift; sourceTree = "<group>"; };
+		D722231B2C4FF58500E45A2D /* ThoughtsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsCell.swift; sourceTree = "<group>"; };
+		D722231D2C4FFD9A00E45A2D /* PersonalThoughtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalThoughtModel.swift; sourceTree = "<group>"; };
 		D7630DB52C36D4D600A16404 /* Pocket Thought.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Thought.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7630DB82C36D4D600A16404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7630DBA2C36D4D600A16404 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7630DBC2C36D4D600A16404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7630DBF2C36D4D600A16404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7630DBC2C36D4D600A16404 /* PhilosopherVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherVc.swift; sourceTree = "<group>"; };
 		D7630DC12C36D4D700A16404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7630DC42C36D4D700A16404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7630DC62C36D4D700A16404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7630DCF2C36DD8600A16404 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D7630DD12C36DD8C00A16404 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D7630DD62C36E62800A16404 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D7630DD82C36F27200A16404 /* PhilosopherAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherAPIService.swift; sourceTree = "<group>"; };
+		D7630DDA2C3736C100A16404 /* PhilosopherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherDTO.swift; sourceTree = "<group>"; };
+		D7630DDC2C37374B00A16404 /* Philosopher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Philosopher.swift; sourceTree = "<group>"; };
+		D7630DDF2C3744AF00A16404 /* PhilosopherCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherCoordinator.swift; sourceTree = "<group>"; };
+		D7630DE22C38002100A16404 /* PhilosopherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherViewModel.swift; sourceTree = "<group>"; };
+		D7630DE52C38E7C800A16404 /* PhilosopherResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherResult.swift; sourceTree = "<group>"; };
+		D7630DE72C38EE6500A16404 /* ViewModelOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelOutput.swift; sourceTree = "<group>"; };
+		D7630DEA2C3909A100A16404 /* PhilosopherViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherViewcell.swift; sourceTree = "<group>"; };
+		D7630DEC2C3B900700A16404 /* PhilosopherNameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherNameCard.swift; sourceTree = "<group>"; };
+		D7630DEE2C3B96C700A16404 /* PhilosopherInputDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherInputDelegate.swift; sourceTree = "<group>"; };
+		D7630DF12C3BA28C00A16404 /* PhilosopherDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherDetailVc.swift; sourceTree = "<group>"; };
+		D7630DF32C3BA54C00A16404 /* PhilosopherDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhilosopherDetailViewModel.swift; sourceTree = "<group>"; };
+		D7630DF82C3C3ADF00A16404 /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
+		D7630DFC2C3C3D3400A16404 /* IdeasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasCell.swift; sourceTree = "<group>"; };
+		D7630DFE2C3D8C8D00A16404 /* ThoughtsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsHeader.swift; sourceTree = "<group>"; };
+		D7630E022C44CBA500A16404 /* PersonalThoughtsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalThoughtsVc.swift; sourceTree = "<group>"; };
+		D78112392C46AF24000CDCEE /* UserAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthModel.swift; sourceTree = "<group>"; };
+		D781123F2C47D3BF000CDCEE /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		D78112412C47D951000CDCEE /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		D78112432C47D9C3000CDCEE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		D78112472C4863E7000CDCEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D781124A2C4926E9000CDCEE /* UIButton + Remove Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Remove Actions.swift"; sourceTree = "<group>"; };
+		D795136B2C513DDA00C00D14 /* Idea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
+		D7A129672C51F4FA009ECD5F /* IdeasTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeasTableViewHeader.swift; sourceTree = "<group>"; };
+		D7E557C42C46861F008A4C61 /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		E5CAA4FA6855C2E9ECBB803A /* Pods-Pocket Thought.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Thought.debug.xcconfig"; path = "Target Support Files/Pods-Pocket Thought/Pods-Pocket Thought.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +105,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C247F9A96B0C21EFBD27BB33 /* Pods_Pocket_Thought.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A8B119E8667CA4FA943890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240C49A1CB2B158A223D858B /* Pods_Pocket_Thought.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D722230D2C4E3DB900E45A2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D722230E2C4E3DC300E45A2D /* PersonalThoughtDataBaseModel.swift */,
+				D72223102C4E3EF900E45A2D /* UserDatabaseModel.swift */,
+				D72223122C4E409900E45A2D /* PhilosopherDataBaseModel.swift */,
+				D72223142C4E40A000E45A2D /* IdeasDatabaseModel.swift */,
+				D72223162C4E45D700E45A2D /* DataBaseThoughtInputModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D72223182C4E4FB300E45A2D /* PersonalThought */ = {
+			isa = PBXGroup;
+			children = (
+				D72223192C4E4FC300E45A2D /* PersonalThoughtViewModel.swift */,
+			);
+			path = PersonalThought;
+			sourceTree = "<group>";
+		};
 		D7630DAC2C36D4D600A16404 = {
 			isa = PBXGroup;
 			children = (
+				D78112472C4863E7000CDCEE /* GoogleService-Info.plist */,
 				D7630DB72C36D4D600A16404 /* Pocket Thought */,
 				D7630DB62C36D4D600A16404 /* Products */,
+				E06BB56714E158AF62B3741F /* Pods */,
+				08A8B119E8667CA4FA943890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +162,198 @@
 		D7630DB72C36D4D600A16404 /* Pocket Thought */ = {
 			isa = PBXGroup;
 			children = (
+				D78112492C4926DA000CDCEE /* Extensions */,
+				D7630DD52C36E62100A16404 /* Services */,
+				D7630DD32C36E5F400A16404 /* Scenes */,
+				D7630DCF2C36DD8600A16404 /* Coordinator.swift */,
+				D7630DD12C36DD8C00A16404 /* AppCoordinator.swift */,
 				D7630DB82C36D4D600A16404 /* AppDelegate.swift */,
 				D7630DBA2C36D4D600A16404 /* SceneDelegate.swift */,
-				D7630DBC2C36D4D600A16404 /* ViewController.swift */,
-				D7630DBE2C36D4D600A16404 /* Main.storyboard */,
 				D7630DC12C36D4D700A16404 /* Assets.xcassets */,
 				D7630DC32C36D4D700A16404 /* LaunchScreen.storyboard */,
 				D7630DC62C36D4D700A16404 /* Info.plist */,
 			);
 			path = "Pocket Thought";
+			sourceTree = "<group>";
+		};
+		D7630DCD2C36D61800A16404 /* Philosophers */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DF02C3BA27900A16404 /* View Controllers */,
+				D7630DE92C39098800A16404 /* View Components */,
+				D7630DE12C38001B00A16404 /* ViewModels */,
+				D7630DDE2C37449D00A16404 /* Coordinators */,
+				D7630DD42C36E61800A16404 /* Models */,
+			);
+			path = Philosophers;
+			sourceTree = "<group>";
+		};
+		D7630DCE2C36D62100A16404 /* School */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = School;
+			sourceTree = "<group>";
+		};
+		D7630DD32C36E5F400A16404 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D781123B2C47D38D000CDCEE /* Auth */,
+				D7630DCE2C36D62100A16404 /* School */,
+				D7630DCD2C36D61800A16404 /* Philosophers */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D7630DD42C36E61800A16404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DDA2C3736C100A16404 /* PhilosopherDTO.swift */,
+				D7630DDC2C37374B00A16404 /* Philosopher.swift */,
+				D7630DE52C38E7C800A16404 /* PhilosopherResult.swift */,
+				D722231D2C4FFD9A00E45A2D /* PersonalThoughtModel.swift */,
+				D795136B2C513DDA00C00D14 /* Idea.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7630DD52C36E62100A16404 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DFA2C3C3AF300A16404 /* Auth-related */,
+				D7630DF72C3C3ACB00A16404 /* Database-related */,
+				D7630DE42C38E7A800A16404 /* API-related */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D7630DDE2C37449D00A16404 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DDF2C3744AF00A16404 /* PhilosopherCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D7630DE12C38001B00A16404 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D72223182C4E4FB300E45A2D /* PersonalThought */,
+				D7630DE22C38002100A16404 /* PhilosopherViewModel.swift */,
+				D7630DE72C38EE6500A16404 /* ViewModelOutput.swift */,
+				D7630DEE2C3B96C700A16404 /* PhilosopherInputDelegate.swift */,
+				D7630DF32C3BA54C00A16404 /* PhilosopherDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D7630DE42C38E7A800A16404 /* API-related */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DD62C36E62800A16404 /* APIService.swift */,
+				D7630DD82C36F27200A16404 /* PhilosopherAPIService.swift */,
+			);
+			path = "API-related";
+			sourceTree = "<group>";
+		};
+		D7630DE92C39098800A16404 /* View Components */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DEA2C3909A100A16404 /* PhilosopherViewcell.swift */,
+				D7630DEC2C3B900700A16404 /* PhilosopherNameCard.swift */,
+				D7630DFC2C3C3D3400A16404 /* IdeasCell.swift */,
+				D7630DFE2C3D8C8D00A16404 /* ThoughtsHeader.swift */,
+				D722231B2C4FF58500E45A2D /* ThoughtsCell.swift */,
+				D7A129672C51F4FA009ECD5F /* IdeasTableViewHeader.swift */,
+			);
+			path = "View Components";
+			sourceTree = "<group>";
+		};
+		D7630DF02C3BA27900A16404 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7630DBC2C36D4D600A16404 /* PhilosopherVc.swift */,
+				D7630DF12C3BA28C00A16404 /* PhilosopherDetailVc.swift */,
+				D7630E022C44CBA500A16404 /* PersonalThoughtsVc.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D7630DF72C3C3ACB00A16404 /* Database-related */ = {
+			isa = PBXGroup;
+			children = (
+				D722230D2C4E3DB900E45A2D /* Models */,
+				D7630DF82C3C3ADF00A16404 /* FirestoreService.swift */,
+			);
+			path = "Database-related";
+			sourceTree = "<group>";
+		};
+		D7630DFA2C3C3AF300A16404 /* Auth-related */ = {
+			isa = PBXGroup;
+			children = (
+				D7E557C42C46861F008A4C61 /* FirebaseAuthService.swift */,
+			);
+			path = "Auth-related";
+			sourceTree = "<group>";
+		};
+		D78112382C46AF19000CDCEE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D78112392C46AF24000CDCEE /* UserAuthModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D781123B2C47D38D000CDCEE /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D78112382C46AF19000CDCEE /* Models */,
+				D781123E2C47D39F000CDCEE /* Coordinators */,
+				D781123D2C47D399000CDCEE /* ViewModels */,
+				D781123C2C47D392000CDCEE /* View Controllers */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D781123C2C47D392000CDCEE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D78112432C47D9C3000CDCEE /* AuthViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D781123D2C47D399000CDCEE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D78112412C47D951000CDCEE /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D781123E2C47D39F000CDCEE /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				D781123F2C47D3BF000CDCEE /* AuthCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		D78112492C4926DA000CDCEE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D781124A2C4926E9000CDCEE /* UIButton + Remove Actions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E06BB56714E158AF62B3741F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5CAA4FA6855C2E9ECBB803A /* Pods-Pocket Thought.debug.xcconfig */,
+				22B2896AA75E6C34135A91BE /* Pods-Pocket Thought.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +363,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7630DC92C36D4D700A16404 /* Build configuration list for PBXNativeTarget "Pocket Thought" */;
 			buildPhases = (
+				386DA120A528A877BB949791 /* [CP] Check Pods Manifest.lock */,
 				D7630DB12C36D4D600A16404 /* Sources */,
 				D7630DB22C36D4D600A16404 /* Frameworks */,
 				D7630DB32C36D4D600A16404 /* Resources */,
+				DD1932B956AB9AD392289752 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +418,103 @@
 			files = (
 				D7630DC52C36D4D700A16404 /* LaunchScreen.storyboard in Resources */,
 				D7630DC22C36D4D700A16404 /* Assets.xcassets in Resources */,
-				D7630DC02C36D4D600A16404 /* Main.storyboard in Resources */,
+				D78112482C4863E7000CDCEE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		386DA120A528A877BB949791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pocket Thought-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD1932B956AB9AD392289752 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pocket Thought/Pods-Pocket Thought-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pocket Thought/Pods-Pocket Thought-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pocket Thought/Pods-Pocket Thought-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7630DB12C36D4D600A16404 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7630DBD2C36D4D600A16404 /* ViewController.swift in Sources */,
+				D7630DF92C3C3ADF00A16404 /* FirestoreService.swift in Sources */,
+				D7630DD02C36DD8600A16404 /* Coordinator.swift in Sources */,
+				D7630DFF2C3D8C8D00A16404 /* ThoughtsHeader.swift in Sources */,
+				D7630DDB2C3736C100A16404 /* PhilosopherDTO.swift in Sources */,
+				D7630DBD2C36D4D600A16404 /* PhilosopherVc.swift in Sources */,
+				D78112402C47D3BF000CDCEE /* AuthCoordinator.swift in Sources */,
+				D781124B2C4926E9000CDCEE /* UIButton + Remove Actions.swift in Sources */,
+				D7630DFD2C3C3D3400A16404 /* IdeasCell.swift in Sources */,
+				D722231A2C4E4FC300E45A2D /* PersonalThoughtViewModel.swift in Sources */,
+				D7A129682C51F4FA009ECD5F /* IdeasTableViewHeader.swift in Sources */,
+				D78112442C47D9C3000CDCEE /* AuthViewController.swift in Sources */,
+				D72223112C4E3EF900E45A2D /* UserDatabaseModel.swift in Sources */,
+				D7630DD92C36F27200A16404 /* PhilosopherAPIService.swift in Sources */,
+				D7E557C52C46861F008A4C61 /* FirebaseAuthService.swift in Sources */,
+				D781123A2C46AF24000CDCEE /* UserAuthModel.swift in Sources */,
+				D7630DDD2C37374B00A16404 /* Philosopher.swift in Sources */,
+				D7630DEF2C3B96C700A16404 /* PhilosopherInputDelegate.swift in Sources */,
+				D795136C2C513DDA00C00D14 /* Idea.swift in Sources */,
+				D7630DD22C36DD8C00A16404 /* AppCoordinator.swift in Sources */,
+				D722230F2C4E3DC300E45A2D /* PersonalThoughtDataBaseModel.swift in Sources */,
+				D7630DE62C38E7C800A16404 /* PhilosopherResult.swift in Sources */,
 				D7630DB92C36D4D600A16404 /* AppDelegate.swift in Sources */,
+				D7630DEB2C3909A200A16404 /* PhilosopherViewcell.swift in Sources */,
+				D72223132C4E409900E45A2D /* PhilosopherDataBaseModel.swift in Sources */,
+				D722231C2C4FF58500E45A2D /* ThoughtsCell.swift in Sources */,
+				D7630DD72C36E62800A16404 /* APIService.swift in Sources */,
+				D7630DED2C3B900700A16404 /* PhilosopherNameCard.swift in Sources */,
+				D7630DE32C38002100A16404 /* PhilosopherViewModel.swift in Sources */,
+				D7630DF22C3BA28C00A16404 /* PhilosopherDetailVc.swift in Sources */,
+				D7630DF42C3BA54C00A16404 /* PhilosopherDetailViewModel.swift in Sources */,
+				D7630DE02C3744AF00A16404 /* PhilosopherCoordinator.swift in Sources */,
+				D72223172C4E45D700E45A2D /* DataBaseThoughtInputModel.swift in Sources */,
+				D7630DE82C38EE6500A16404 /* ViewModelOutput.swift in Sources */,
+				D7630E032C44CBA500A16404 /* PersonalThoughtsVc.swift in Sources */,
+				D78112422C47D951000CDCEE /* AuthViewModel.swift in Sources */,
+				D722231E2C4FFD9A00E45A2D /* PersonalThoughtModel.swift in Sources */,
 				D7630DBB2C36D4D600A16404 /* SceneDelegate.swift in Sources */,
+				D72223152C4E40A000E45A2D /* IdeasDatabaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7630DBE2C36D4D600A16404 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7630DBF2C36D4D600A16404 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7630DC32C36D4D700A16404 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +647,18 @@
 		};
 		D7630DCA2C36D4D700A16404 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5CAA4FA6855C2E9ECBB803A /* Pods-Pocket Thought.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H4427J3SZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pocket Thought/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +676,18 @@
 		};
 		D7630DCB2C36D4D700A16404 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B2896AA75E6C34135A91BE /* Pods-Pocket Thought.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6H4427J3SZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pocket Thought/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
